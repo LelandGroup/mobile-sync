@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03 15:52",
+  "generated_at": "2026-10-03 16:14",
   "sources": {
     "ibkr": {
       "positions": [
@@ -14587,7 +14587,9 @@
       "dla_receivable": 963047.0,
       "known_wealth_incl_dla": 1539728.95
     },
-    "combined_wealth_dla_eliminated": 4024673.54
+    "combined_wealth_dla_eliminated": 4024673.54,
+    "fire_flagstone_pending_migration": 385000.0,
+    "combined_wealth_incl_fire_pending": 4409673.54
   },
   "contribution_plan": {
     "_note": "Manually maintained by Luke \u2014 his month-by-month capital deployment plan toward the \u00a33m Growth (IBKR) and \u00a31.4m Savings (Flagstone) targets. Update this file whenever the plan changes (Luke can ask Claude to update it). The dashboard compares these figures against real transactions each morning.",
