@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03 16:14",
+  "generated_at": "2026-10-08 11:22",
   "sources": {
     "ibkr": {
       "positions": [
@@ -128,6 +128,11 @@
         },
         {
           "date": "2026-02-09",
+          "description": "Electronic Fund Transfer",
+          "amount": 50000.0
+        },
+        {
+          "date": "2026-02-10",
           "description": "Electronic Fund Transfer",
           "amount": 50000.0
         },
@@ -273,6 +278,11 @@
         },
         {
           "date": "2026-09-04",
+          "description": "Electronic Fund Transfer",
+          "amount": 50000.0
+        },
+        {
+          "date": "2026-09-05",
           "description": "Electronic Fund Transfer",
           "amount": 50000.0
         },
@@ -1451,10 +1461,10 @@
       }
     },
     "hsbc": {
-      "balance": 447.73,
-      "as_of": "2026-09-26",
+      "balance": 0.73,
+      "as_of": "2026-10-05",
       "status": "ok",
-      "skipped_near_duplicate_rows": 35
+      "skipped_near_duplicate_rows": 44
     },
     "hl_isa": {
       "stock_value": 93955.98,
@@ -1520,30 +1530,19 @@
       "status": "ok",
       "holdings": [
         {
-          "provider": "Shawbrook",
-          "term_months": 12.0,
-          "rate_pct": 4.33,
-          "maturity_date": "2026-09-03",
-          "balance": 124712.0,
-          "as_of": "2026-08-17",
-          "days_remaining": -31,
-          "projected_interest_at_maturity": 5400.03,
-          "matures_soon": true
-        },
-        {
           "provider": "Hampshire Trust Bank",
           "term_months": 24.0,
           "rate_pct": 4.38,
           "maturity_date": "2027-01-04",
           "balance": 100845.96,
           "as_of": "2026-08-17",
-          "days_remaining": 92,
+          "days_remaining": 87,
           "projected_interest_at_maturity": 8834.11,
           "matures_soon": false
         }
       ],
-      "total_balance": 225557.96,
-      "total_projected_interest": 14234.14,
+      "total_balance": 100845.96,
+      "total_projected_interest": 8834.11,
       "as_of": "2026-08-17"
     },
     "hl_fund_share": {
@@ -8229,7 +8228,7 @@
       "entity": "Group",
       "provider": "IBKR",
       "account": "IBKR corporate investment account",
-      "category": "Internal Transfer",
+      "category": "Director Loan",
       "money_in": 50000.0,
       "money_out": null,
       "net": 50000.0,
@@ -8910,6 +8909,29 @@
       "net": 67000.0,
       "internal_transfer": true,
       "balance_after": null
+    },
+    {
+      "date": "2026-02-10",
+      "entity": "Group",
+      "provider": "HSBC",
+      "account": "HSBC current account",
+      "category": "Internal Transfer",
+      "money_in": null,
+      "money_out": 50000.0,
+      "net": -50000.0,
+      "internal_transfer": true,
+      "balance_after": 17000.0
+    },
+    {
+      "date": "2026-02-10",
+      "entity": "Group",
+      "provider": "IBKR",
+      "account": "IBKR corporate investment account",
+      "category": "Internal Transfer",
+      "money_in": 50000.0,
+      "money_out": null,
+      "net": 50000.0,
+      "internal_transfer": true
     },
     {
       "date": "2026-02-10",
@@ -13778,12 +13800,35 @@
       "entity": "Group",
       "provider": "HSBC",
       "account": "HSBC current account",
-      "category": "Intercompany Dividend",
+      "category": "Intercompany Loan",
       "money_in": 51447.0,
       "money_out": null,
       "net": 51447.0,
       "internal_transfer": false,
       "balance_after": null
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "Group",
+      "provider": "HSBC",
+      "account": "HSBC current account",
+      "category": "Internal Transfer",
+      "money_in": null,
+      "money_out": 50000.0,
+      "net": -50000.0,
+      "internal_transfer": true,
+      "balance_after": 1447.73
+    },
+    {
+      "date": "2026-09-05",
+      "entity": "Group",
+      "provider": "IBKR",
+      "account": "IBKR corporate investment account",
+      "category": "Internal Transfer",
+      "money_in": 50000.0,
+      "money_out": null,
+      "net": 50000.0,
+      "internal_transfer": true
     },
     {
       "date": "2026-09-05",
@@ -14019,7 +14064,7 @@
       "entity": "Group",
       "provider": "HSBC",
       "account": "HSBC current account",
-      "category": "Intercompany Dividend",
+      "category": "Intercompany Loan Repayment",
       "money_in": null,
       "money_out": 51000.0,
       "net": -51000.0,
@@ -14468,12 +14513,24 @@
       "money_out": 3.0,
       "net": -3.0,
       "internal_transfer": false
+    },
+    {
+      "date": "2026-10-05",
+      "entity": "Group",
+      "provider": "HSBC",
+      "account": "HSBC current account",
+      "category": "Intercompany Loan Repayment",
+      "money_in": null,
+      "money_out": 447.0,
+      "net": -447.0,
+      "internal_transfer": false,
+      "balance_after": 0.73
     }
   ],
   "ledger_summary": {
-    "transaction_count": 1093,
-    "total_money_in": 17457066.82,
-    "total_money_out": 17247068.27,
+    "transaction_count": 1098,
+    "total_money_in": 17557066.82,
+    "total_money_out": 17347515.27,
     "by_category": {
       "Contribution": {
         "count": 30,
@@ -14486,9 +14543,9 @@
         "money_out": 6950300.05
       },
       "Internal Transfer": {
-        "count": 142,
-        "money_in": 5725335.14,
-        "money_out": 5392371.06
+        "count": 145,
+        "money_in": 5775335.14,
+        "money_out": 5492371.06
       },
       "Principal Returned": {
         "count": 118,
@@ -14511,19 +14568,29 @@
         "money_out": 1135.61
       },
       "Intercompany Dividend": {
-        "count": 28,
-        "money_in": 2392651.87,
-        "money_out": 116000.0
+        "count": 26,
+        "money_in": 2341204.87,
+        "money_out": 65000.0
       },
       "Director Loan": {
-        "count": 18,
-        "money_in": 963047.0,
+        "count": 19,
+        "money_in": 1013047.0,
         "money_out": 0
       },
       "Dividend Income": {
         "count": 13,
         "money_in": 5285.22,
         "money_out": 0
+      },
+      "Intercompany Loan": {
+        "count": 1,
+        "money_in": 51447.0,
+        "money_out": 0
+      },
+      "Intercompany Loan Repayment": {
+        "count": 2,
+        "money_in": 0,
+        "money_out": 51447.0
       }
     },
     "by_provider": {
@@ -14548,28 +14615,28 @@
         "money_out": 5044979.79
       },
       "HSBC": {
-        "count": 101,
+        "count": 104,
         "money_in": 3648685.87,
-        "money_out": 3548238.14
+        "money_out": 3648685.14
       },
       "IBKR": {
-        "count": 310,
-        "money_in": 2192994.22,
+        "count": 312,
+        "money_in": 2292994.22,
         "money_out": 2138209.4
       }
     }
   },
   "summary": {
     "group": {
-      "hsbc": 447.73,
-      "hsbc_as_of": "2026-09-26",
+      "hsbc": 0.73,
+      "hsbc_as_of": "2026-10-05",
       "flagstone": 1020291.69,
       "flagstone_as_of": "14/07/2026",
       "ibkr": 2427252.166352928,
       "ibkr_as_of": "2026-10-02",
-      "total_assets": 3447991.59,
-      "director_loan_liability": 963047.0,
-      "net_assets": 2484944.59
+      "total_assets": 3447544.59,
+      "director_loan_liability": 1013047.0,
+      "net_assets": 2434497.59
     },
     "personal": {
       "hl_isa": 93955.98,
@@ -14578,18 +14645,18 @@
       "hl_sipp_as_of": "03-10-2026 15:43",
       "hl_fund_share": 67722.7,
       "hl_fund_share_status": "ok",
-      "hl_active_savings": 239792.1,
-      "hl_active_savings_principal": 225557.96,
+      "hl_active_savings": 109680.07,
+      "hl_active_savings_principal": 100845.96,
       "hl_active_savings_as_of": "2026-08-17",
       "hl_active_savings_status": "partial",
-      "hl_active_savings_projected_interest": 14234.14,
-      "known_assets_excl_dla": 576681.95,
-      "dla_receivable": 963047.0,
-      "known_wealth_incl_dla": 1539728.95
+      "hl_active_savings_projected_interest": 8834.11,
+      "known_assets_excl_dla": 446569.92,
+      "dla_receivable": 1013047.0,
+      "known_wealth_incl_dla": 1459616.92
     },
-    "combined_wealth_dla_eliminated": 4024673.54,
+    "combined_wealth_dla_eliminated": 4279114.51,
     "fire_flagstone_pending_migration": 385000.0,
-    "combined_wealth_incl_fire_pending": 4409673.54
+    "combined_wealth_incl_fire_pending": 4279114.51
   },
   "contribution_plan": {
     "_note": "Manually maintained by Luke \u2014 his month-by-month capital deployment plan toward the \u00a33m Growth (IBKR) and \u00a31.4m Savings (Flagstone) targets. Update this file whenever the plan changes (Luke can ask Claude to update it). The dashboard compares these figures against real transactions each morning.",
@@ -14608,9 +14675,9 @@
           "leland_fire_input": 100000
         },
         "actual": {
-          "growth_add": 220500.0,
+          "growth_add": 170500.0,
           "savings_add": 100000.0,
-          "from_hl": 170000.0,
+          "from_hl": 220000.0,
           "leland_fire_input_direct": 110000.0,
           "leland_fire_input_dividend": 500.0
         }
@@ -14623,7 +14690,7 @@
           "leland_fire_input": 80000
         },
         "actual": {
-          "growth_add": 117000.0,
+          "growth_add": 167000.0,
           "savings_add": -85902.06,
           "from_hl": 217000.0,
           "leland_fire_input_direct": 80000.0,
@@ -14728,11 +14795,11 @@
           "leland_fire_input": 100000
         },
         "actual": {
-          "growth_add": 231559.0,
+          "growth_add": 281559.0,
           "savings_add": -51447.0,
           "from_hl": 130112.0,
           "leland_fire_input_direct": 0,
-          "leland_fire_input_dividend": 100447.0
+          "leland_fire_input_dividend": 100000.0
         }
       },
       "2026-10": {
@@ -15186,6 +15253,24 @@
       "personal_known_excl_dla": 576681.95,
       "growth_all": 2764142.02,
       "cash_all": 1260531.52
+    },
+    {
+      "date": "2026-10-05",
+      "combined_wealth": 3894114.51,
+      "group_total_assets": 3447544.59,
+      "group_net_assets": 2434497.59,
+      "personal_known_excl_dla": 446569.92,
+      "growth_all": 2764142.02,
+      "cash_all": 1129972.49
+    },
+    {
+      "date": "2026-10-08",
+      "combined_wealth": 4279114.51,
+      "group_total_assets": 3447544.59,
+      "group_net_assets": 2434497.59,
+      "personal_known_excl_dla": 446569.92,
+      "growth_all": 2764142.02,
+      "cash_all": 1514972.49
     }
   ],
   "property": {
