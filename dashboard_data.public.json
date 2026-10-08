@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08 11:22",
+  "generated_at": "2026-10-08 11:44",
   "sources": {
     "ibkr": {
       "positions": [
@@ -14630,13 +14630,14 @@
     "group": {
       "hsbc": 0.73,
       "hsbc_as_of": "2026-10-05",
-      "flagstone": 1020291.69,
+      "flagstone": 1405291.69,
       "flagstone_as_of": "14/07/2026",
       "ibkr": 2427252.166352928,
       "ibkr_as_of": "2026-10-02",
       "total_assets": 3447544.59,
       "director_loan_liability": 1013047.0,
-      "net_assets": 2434497.59
+      "net_assets": 2434497.59,
+      "flagstone_group_ltd_only": 1020291.69
     },
     "personal": {
       "hl_isa": 93955.98,
